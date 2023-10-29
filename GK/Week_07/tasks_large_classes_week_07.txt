@@ -6,32 +6,13 @@ Tasks:
     men	 207  282  241
   women	 234  242  232
   
-	a) Define a null- and alternative hypothesis for a CHi-squared test.
-	b) Define a significance-level alpha for the test.
-	c) Perform a Chi-squared test with Python to test, whether the two categorical variables (gender; type of pets) are independent.
+	a) Define a null- and alternative hypothesis for a Chi-squared test.
+	b) Define a significance-level alpha for the Chi-squared test.
+	c) Perform a Chi-squared test with Python to test, whether the two categorical variables (gender & type of pets) are independent.
 	d) Interpret the test results
 
-2.) Investigate the correlation between the price and attributes of sports cars
-
-    a) 	Download the sports car price data set from Kaggle by using the following code:
-
-		# Install library kaggle
-		pip install kaggle
-		
-		# Import libraries
-		import pandas as pd
-		from kaggle.api.kaggle_api_extended import KaggleApi
-		
-		# Initialize API
-		api = KaggleApi()
-		api.authenticate()
-
-		# Download file
-		api.dataset_download_file('rkiattisak/sports-car-prices-dataset','Sport car price.csv')
-
-		# Read data to pandas data frame
-		df = pd.read_csv('BigmacPrice.csv', sep=',')
-		df
-	
-	b) Perform a correlation analysis to investigate the relationship between sports car prices and horsepower.
-	c) Perform a correlation analysis to investigate the relationship between sports car prices and engine size.
+2.) Perform a correlation analysis
+    
+	a) Simulate numerical data
+	b) Calculate a Pearson correlation coefficient (r)
+	c) Provide a p-value for the Pearson correlation coefficient (r)
