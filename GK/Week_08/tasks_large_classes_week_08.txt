@@ -12,6 +12,7 @@ Tasks:
     'Fuel_Type' =  explanatory variable
     
 	Evaluate the model using suitable goodness-of-fit measures.
+	Evaluate model residuals.
 
 3.) Fit a random forest regression model with:
     'Price_num' = target variable
@@ -20,3 +21,5 @@ Tasks:
     'Fuel_Type' =  explanatory variable
 
 	Evaluate the model using suitable goodness-of-fit measures.
+	Evaluate model residuals.
+	Evaluate feature importance
