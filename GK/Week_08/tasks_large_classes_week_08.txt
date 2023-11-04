@@ -1,7 +1,6 @@
 Tasks:
 
 1.) Import the car data from Moodle 'autoscout24_data_prepared'.
-    
     Select only cars with fuel type 'Benzin' and 'Diesel'
     Perform one-hot encoding of categorical variable 'Fuel_Type'
 	Create train and test samples (80% train, 20% test).
