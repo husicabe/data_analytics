@@ -2,6 +2,7 @@ Tasks:
 
 1.) Import the car data from Moodle 'autoscout24_data_prepared'.
 	Create train and test samples from the car data set on Moodle.
+	
 
 2.) Fit a multiple linear regression model with:
     'Price_num' = target variable
