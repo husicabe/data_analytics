@@ -1,14 +1,16 @@
 Tasks:
 
 1.) Import the car data from Moodle 'autoscout24_data_prepared'.
-	Create train and test samples from the car data set on Moodle.
-	
+    
+    Select only cars with fuel type 'Benzin' and 'Diesel'
+    Perform one-hot encoding of categorical variable 'Fuel_Type'
+	Create train and test samples (80% train, 20% test).
 
 2.) Fit a multiple linear regression model with:
     'Price_num' = target variable
 	'Mileage_num' = explanatory variable
 	'HP_num' = explanatory variable
-    'FUEL' =  explanatory variable
+    'Fuel_Type' =  explanatory variable
     
 	Evaluate the model using suitable goodness-of-fit measures.
 
@@ -16,6 +18,6 @@ Tasks:
     'Price_num' = target variable
 	'Mileage_num' = explanatory variable
 	'HP_num' = explanatory variable
-    'FUEL' =  explanatory variable
+    'Fuel_Type' =  explanatory variable
 
 	Evaluate the model using suitable goodness-of-fit measures.
