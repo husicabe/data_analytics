@@ -1,0 +1,20 @@
+Tasks:
+
+1.) Import the car data from Moodle 'autoscout24_data_prepared'.
+	Create train and test samples from the car data set on Moodle.
+
+2.) Fit a multiple linear regression model with:
+    'Price_num' = target variable
+	'Mileage_num' = explanatory variable
+	'HP_num' = explanatory variable
+    'FUEL' =  explanatory variable
+    
+	Evaluate the model using suitable goodness-of-fit measures.
+
+3.) Fit a random forest regression model with:
+    'Price_num' = target variable
+	'Mileage_num' = explanatory variable
+	'HP_num' = explanatory variable
+    'FUEL' =  explanatory variable
+
+	Evaluate the model using suitable goodness-of-fit measures.
