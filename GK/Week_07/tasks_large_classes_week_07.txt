@@ -16,3 +16,4 @@ Tasks:
 	a) Simulate numerical data
 	b) Calculate a Pearson correlation coefficient (r)
 	c) Provide a p-value for the Pearson correlation coefficient (r)
+	d) Interpret the test results
