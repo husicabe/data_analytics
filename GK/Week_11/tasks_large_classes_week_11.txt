@@ -7,5 +7,5 @@ Tasks:
 
 2.) Try to run the Jupyter notebook and understand what the Python code is doing.
 
-3.) Learn how text data is prepared, how how neural networks can be used to create word embeddings and to predict
+3.) Learn how text data is prepared, how neural networks can be used to create word embeddings and to predict
     target words based on continuous bag-of-words (CBOW).
