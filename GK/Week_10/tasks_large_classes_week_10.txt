@@ -1,0 +1,9 @@
+Tasks: 
+
+1.) Use Google image search to find a .jpg image of an arbitrary landscape (size < 500 KB).
+
+2.) Read and reshape the image into a 2D array of pixels and RGB colors.
+
+3.) Use the Elbow method to find the optimal number of clusters k for image segmentation.
+
+4.) Perform image segmentation and visualize the result.
